@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<style type="text/css">
+	.st0{stroke:#000000;stroke-width:19.8;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#000000;stroke-width:61.7999;stroke-linecap:round;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#000000;stroke-width:41.2;stroke-linecap:round;stroke-miterlimit:10;}
+	.st3{stroke:#000000;stroke-width:5.15;stroke-linecap:round;stroke-miterlimit:10;}
+	.st4{stroke:#000000;stroke-width:14.6231;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:54.2592,3.6173;}
+	.st5{fill:none;stroke:#FFFFFF;stroke-width:1.8086;stroke-linecap:round;stroke-miterlimit:10;}
+	.st6{fill:#FFFFFF;stroke:#FFFFFF;stroke-width:1.8086;stroke-linecap:round;stroke-miterlimit:10;}
+	.st7{stroke:#000000;stroke-width:1.8086;stroke-linecap:round;stroke-miterlimit:10;}
+	.st8{fill:none;stroke:#000000;stroke-width:14.6231;stroke-linecap:round;stroke-miterlimit:10;}
+</style>
+<g id="Capa_1">
+</g>
+<g id="Capa_2">
+	<polygon class="st0" points="711.9,340.6 745.8,121.8 626,121.8 661.5,-132.7 830,-132.7 792.5,5.2 919.6,5.2 	"/>
+	<g>
+		<path class="st1" d="M214.1,352.1l-64.2-101.2c0,0-42.8-66.2,0-140.1s118.7-64.2,118.7-64.2"/>
+		<path class="st1" d="M316.4,352.1l64.2-101.2c0,0,42.8-66.2,0-140.1S261.9,46.5,261.9,46.5"/>
+		<path class="st2" d="M195.6,193.5c0,0,11.7-101.2,87.6-85.2"/>
+		<path class="st3" d="M195.6,397.4h154.7c0,0,7.3,97.8-77.4,93.4C188.3,486.4,195.6,397.4,195.6,397.4z"/>
+	</g>
+	<g>
+		<path class="st4" d="M1006.3-152.1h-86.2c-0.3,0-0.5-0.2-0.5-0.5v-40c0-0.3,0.2-0.5,0.5-0.5h86.2c0.3,0,0.5,0.2,0.5,0.5v40
+			C1006.8-152.4,1006.6-152.1,1006.3-152.1z"/>
+		<rect x="927.9" y="-186" class="st5" width="71.8" height="25.6"/>
+		<rect x="999.6" y="-178.8" class="st6" width="5.6" height="8.7"/>
+		<path class="st7" d="M1016.8-157.7h-5.8c-0.6,0-1.1-0.5-1.1-1.1v-28.7c0-0.6,0.5-1.1,1.1-1.1h5.8c0.6,0,1.1,0.5,1.1,1.1v28.7
+			C1017.9-158.2,1017.4-157.7,1016.8-157.7z"/>
+	</g>
+	<g>
+		<line class="st8" x1="772.8" y1="-308.7" x2="772.8" y2="-270.8"/>
+		<path class="st8" d="M795.7-296.5c13.1,12.6,13.5,33.5,0.9,46.6c-12.6,13.1-33.5,13.5-46.6,0.9c-13.1-12.6-13.5-33.5-0.9-46.6"/>
+	</g>
+</g>
+</svg>

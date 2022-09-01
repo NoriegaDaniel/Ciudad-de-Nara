@@ -1,0 +1,973 @@
+/* RESET */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    outline: 1px solid red;
+}
+
+body{
+    font-family: 'poppinsregular';
+    font-size: 0.75rem;
+    line-height: 25px;
+}
+
+h2{
+    color:#f20544;
+    font-weight: 600;
+    font-size: 1.563rem;
+    font-family: 'skranjiregular';
+}
+
+
+/* MOBILE */
+
+
+/* ======================================================================= */
+/* INDEX */
+/* ======================================================================= */
+
+
+img{
+    max-width: 100%;
+}
+
+section,
+footer{
+    max-width: 750px;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.imagen-cabecera-index{
+    background-image: url(../imagenes/fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 320px;
+    margin-top: 53px;
+
+    /* POSICIONAR TÍTULO */
+    display: flex;
+    justify-content: center ;
+    align-items: center ;
+}
+
+.titulo-principal{
+    font-size: 1.875rem;
+    font-family: 'skranjiregular';
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    background-color: #f0f5ff;
+}
+
+.menu .logo{
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+
+.bar-btn{
+    font-size: 25px;
+    color: #f20544;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.nav-menu{
+    position: fixed;
+    width: 100%;
+    height: 0;
+    top: 53px;
+    background: rgba(0, 0, 0, .95);
+    text-align: center;
+    transition: all .5s;
+}
+
+.nav-menu li{
+    display: none;
+    line-height: 30px;
+    margin: 50px 0;
+    transition: all .5s;
+}
+
+.nav-menu li a{
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.nav-menu li a.activo,
+.nav-menu li a:hover{
+    color: #f00544;
+    transition: .3s;   
+}
+
+#check{
+    display: none;
+}
+
+#check:checked ~ .nav-menu{
+    height: 450px;
+}
+
+#check:checked ~ .nav-menu li{
+    display: block;
+}
+
+/* SECCION 1 */
+
+.margen{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.txt-alineado-izq{
+    text-align: start;
+    margin: 0 20px;
+}
+
+.aplicaciones{
+    max-width: 100%;
+}
+
+/* SECCION 2 */
+.fondo-gris{
+    background-color: #f1f1f3;
+    margin-top: 20px;
+}
+
+.sub-relleno,
+.margen-transporte{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.txt-tamanio{
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+/* SECCION3 */
+
+/* .bx-wrapper img{
+    display: inline!important;
+} */
+
+figcaption{
+    max-width: 276px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: start;
+}
+
+.padding-figure{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+/* SECCION 4 */
+
+.contenedor-video{
+    width: 100%;
+}
+
+.video-embebido{
+    position: relative;
+    padding-top: 62.5%;
+}
+
+iframe{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%;
+}
+
+.img-reservas{
+    display: none;
+}
+
+
+
+/* FOOTER */
+
+footer{
+    margin-top: 70px;
+    background-color: #f0f5ff;
+}
+
+footer li a{
+    color: black;
+}
+
+.destacado{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.125rem;
+    color: black;
+    font-family: 'poppinsregular';
+}
+
+.titulos-footer{
+    text-align: start;
+    margin: 20px 0;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.apps-margen-footer{
+    margin-bottom: 0;
+    padding-bottom: 20px;
+}
+
+.contenedor-apps{
+    display: flex;
+    align-items: center;
+}
+
+/* ======================================================================= */
+/* QUE HACER */
+/* ======================================================================= */
+
+.imagen-cabecera-que-hacer{
+    background-image: url(../imagenes/fondo-quehacer.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 320px;
+    margin-top: 53px;
+
+    /* POSICIONAR TÍTULO */
+    display: flex;
+    justify-content: center ;
+    align-items: center ;
+}
+
+.titulo-principal{
+    color: #f00544;
+}
+
+/* INTRODUCCIÓN */
+.ancho-caja{
+    max-width: 400px;
+}
+
+.fondo-color{
+    background-color: #f0f5ff;
+}
+
+.negrita{
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.negrita-txt{
+    font-weight: bold;
+}
+
+.ajuste-ancho-txt,
+.intro-transporte{
+    text-align: start;
+    padding: 20px;
+}
+
+.txt-intro{
+    display: inline-block;
+}
+
+/* LAS MEJORES ATRACCIONES */
+.contenedor-atraccion{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.contenedor-atraccion figure{
+    position: relative;
+    overflow: hidden;
+    max-height: 260px;
+    border-radius: 5px;
+}
+
+.contenedor-atraccion figure img{
+    width: 100%;
+    transition: all 500ms ease-out;
+}
+
+.contenedor-atraccion figure .capa{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(240, 5, 68, 0.5);  
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+
+.contenedor-atraccion figure:hover > .capa{
+    opacity: 1;
+    visibility: visible;
+}
+
+.contenedor-atraccion figure:hover > .capa h3{
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+.contenedor-atraccion figure:hover >img{
+    transform: scale(1.3);
+}
+
+.contenedor-atraccion figure .capa h3{
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 120px;
+    transition: all 500ms ease-out;
+    margin-top: 30px;
+}
+
+.contenedor-atraccion figure .capa p{
+    color: white;
+    width: 330px;
+    margin: auto;
+}
+
+/* LOS MEJORES RESTO */
+.contenedor-resto{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.img-resto-right{
+    padding-right: 10px;
+}
+
+.img-resto-left{
+    padding-left: 10px;
+}
+
+.txt-resto-izq{
+    max-width: 250px;
+    text-align: start;
+}
+
+.txt-resto-izq :nth-child(2){
+    background: url(../imagenes/marcador.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: left;
+    padding-left: 25px;
+}
+
+.txt-resto-izq :nth-child(3){
+    background: url(../imagenes/telefono.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: left;
+    padding-left: 25px;
+}
+
+/* ======================================================================= */
+/* TRANSPORTE */
+/* ======================================================================= */
+
+.contenedor-transporte{
+    display: flex;
+}
+
+.caracteristicas{
+    width: 50%;
+}
+
+.punto h3{
+    height: 44px;
+}
+
+.punto :nth-child(1){
+    height: 50px;
+}
+
+.punto :nth-child(3){
+    height: 72px;
+}
+
+
+/* ======================================================================= */
+/* ALOJAMIENTO */
+/* ======================================================================= */
+
+.imagen-cabecera-alojamiento{
+    background-image: url(../imagenes/hotel-fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 320px;
+    margin-top: 53px;
+
+    /* POSICIONAR TÍTULO */
+    display: flex;
+    justify-content: center ;
+    align-items: center ;
+}
+
+.sub-alojamiento{
+    margin: 50px 0 30px 0;
+}
+
+.txt-ajuste-aloj{
+    max-width: 444px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: start;
+    padding: 0 5px;
+}
+
+.espacio-grande{
+    margin-bottom: 50px;
+}
+
+.ico1 :first-child{
+    background: url(../imagenes/cuchilleria.png);
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: left;
+    padding-left: 30px;
+}
+
+.ico1 :nth-child(2){
+    background: url(../imagenes/internet.png);
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: left;
+    padding-left: 30px;
+}
+
+.ico2 :first-child{
+    background: url(../imagenes/bicicleta-estacionaria.png);
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: left;
+    padding-left: 30px;
+}
+
+.ico2 :nth-child(2){
+    background: url(../imagenes/piscina.png);
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: left;
+    padding-left: 30px;
+}
+
+.ico3 :first-child{
+    background: url(../imagenes/aire-acondicionado.png);
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: left;
+    padding-left: 30px;
+}
+
+.ico3 :nth-child(2){
+    background: url(../imagenes/desayuno.png);
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: left;
+    padding-left: 30px;
+}
+
+.ico4 :first-child{
+    background: url(../imagenes/servicio-de-habitacion.png);
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: left;
+    padding-left: 30px;
+}
+
+.contenedor-ico{
+    display: flex;
+    justify-content: space-between;
+}
+
+.txt-ajuste-aloj > h3,
+.txt-ajuste-aloj :nth-child(4){
+    font-size: 17px;
+    margin-top: 20px;
+}
+
+.txt-ajuste-aloj h3 ~ p{
+    color: #f00544;
+}
+
+.precio-ver-mas{
+    display: flex;
+    justify-content: space-between;
+}
+
+.boton-ver-mas{
+    padding: 5px 15px;
+    background-color: #f00544;
+    color: black;
+    border-radius: 5px;
+}
+
+.boton-ver-mas:hover{
+    color: white;
+    transition: .5s;
+}
+
+/* ======================================================================= */
+/* RESERVAS */
+/* ======================================================================= */
+
+.imagen-cabecera-reservas{
+    background-image: url(../imagenes/sakura.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 320px;
+    margin-top: 53px;
+
+    /* POSICIONAR TÍTULO */
+    display: flex;
+    justify-content: center ;
+    align-items: center ;
+}
+
+/* .contenedor-form,
+.columna{
+    display: block;
+    
+} */
+
+.contenedor .fondo-gris-reservas{
+    background-color: #ededed;
+    padding: 10px 20px;
+    width: 100%;
+}
+
+#formularioReservas input:not(input[type="checkbox"]):not(input[placeholder="adultos"]):not(input[placeholder="niños"]), 
+#formularioReservas textarea,
+select {
+    display: block;
+    width:100%;
+    margin-top:30px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-family: inherit ;
+}
+
+.columna .campo{
+    display: block;
+    width:100%;
+    margin-top:30px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-family: inherit ;
+}
+
+.columna .campo-izq{
+    margin-left: auto;
+
+}
+
+#formularioReservas input[type="submit"] {
+    padding: 15px !important;;
+    text-transform: uppercase;
+    border:none;
+    background-color:#f20544;
+    color:white;
+}
+
+#formularioReservas input[placeholder="Check in - Check out"]{
+    background-image: url(../imagenes/calendario.png);
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: 510px center;
+}
+
+#formularioReservas input[placeholder="Selecciona el tipo de habitación"]{
+    background-image: url(../imagenes/cama.png);
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: 510px center;
+}
+
+select{
+    appearance: none;
+    flex: 1;
+    color: #626262;
+    cursor: pointer;
+}
+
+select::-ms-expand{
+    display: none;
+}
+
+#formularioReservas textarea  {
+    resize: none ;
+}
+
+.chequeo{
+    text-align: start;
+}
+
+.gracias{
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.gracias :nth-child(n){
+    margin-bottom: 30px;
+}
+
+
+/* ======================================================================= */
+/* TRANSPORTE */
+/* ======================================================================= */
+
+.imagen-cabecera-transporte{
+    background-image: url(../imagenes/header-transporte.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 320px;
+    margin-top: 53px;
+
+    /* POSICIONAR TÍTULO */
+    display: flex;
+    justify-content: center ;
+    align-items: center ;
+}
+
+.sub-intro-transporte{
+    color: #f00544;
+    font-size: 20px;
+}
+
+@media(min-width: 900px){
+
+    /* ======================================================================= */
+    /* INDEX WEB */
+    /* ======================================================================= */
+
+    body{
+        font-size: 1rem;
+    }
+
+    h2{
+        font-size: 3rem;
+    }
+
+    img{
+        max-width: max-content;
+    }
+
+    .imagen-cabecera-index,
+    .imagen-cabecera-que-hacer,
+    .imagen-cabecera-alojamiento,
+    .imagen-cabecera-transporte{
+        height: 100vh;
+        margin-top: 0;
+    }
+
+    /* BARRA DE NAVEGACIÓN */
+    .menu{
+        height: 100px;    
+    }
+
+    .bar-btn{
+        display: none;
+    }
+
+    .nav-menu{
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        position: relative;
+        height: 100px;
+        top: 0;
+        background: none;
+        transition: none;
+    }
+
+    .nav-menu li{
+        display: inline-block;
+        margin: 0 20px;
+        transition: none;
+    }
+
+    .nav-menu li a{
+        color: rgb(0, 0, 0);
+        font-size: 1rem;
+    }
+
+    
+
+    .titulo-principal{
+        font-size: 4.875rem;
+        color: #f00544;
+    }
+
+
+    .posicionar-templo{
+        position: relative; 
+        margin-top: 90px;
+        max-width: 100%;
+    }
+
+    .posicionar-templo picture{
+        position: absolute;
+        top: -200%;
+        right: 0;
+        max-width: 100%;
+        height: auto;  
+    }
+
+    section{
+        max-width: 1200px;
+    }
+
+
+    .txt-tamanio{
+        max-width: 1200px;
+    }
+
+    .txt-alineado-izq{
+        line-height: 30px;
+    }
+
+    .txt-izq{
+        padding-right: 770px;
+    }
+
+    /* SECCION 2 */
+    .margen-superior{
+        margin-top: 150px;
+    }
+
+    .fondo-montes{
+        background-image: url(../imagenes/montes.png);
+        background-color: #fff;
+        max-width: 100%;
+    }
+
+    .contenedor-web{
+        max-width: 1200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* SECCIÓN 3 */
+
+    .contenedor{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .contenedor figure{
+        
+        padding: 0 15px;
+    }
+
+    /* FOOTER */
+
+    footer{
+        max-width: 100%;
+    }
+
+    .contenedor-footer{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .titulos-footer{
+        text-align: start;
+        margin: 20px 0;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .contenedor-apps{
+        display: inline-block;
+    }
+
+    /* ======================================================================= */
+    /* QUE HACER WEB */
+    /* ======================================================================= */
+
+    /* SECCIÓN 1 */
+    .img-turismo{
+        max-width: 500px;
+    }
+
+    .ajuste-ancho-txt{
+        display: flex;
+        justify-content: center;
+    }
+
+    /* SECCIÓN 2 */
+    .contenedor2{
+        display: flex;
+    }
+
+    .margen-atracciones{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .margen-atracciones > .subtitulo{
+        margin-bottom: 40px;
+    }
+
+    /* LOS MEJORES RESTO WEB*/
+    .contenedor-resto-web{
+        display: flex;
+        justify-content: center;
+    }
+
+    .contenedor-resto{
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    /* ======================================================================= */
+    /* ALOJAMIENTO WEB */
+    /* ======================================================================= */
+
+    .txt-ajuste-aloj{
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+        margin-top: auto;
+        margin-bottom: auto;
+        padding-left: 30px;
+    }
+
+    .contenedor-ico{
+        display: inline-block;
+    }
+
+    /* ======================================================================= */
+    /* RESERVAS WEB */
+    /* ======================================================================= */
+
+    .imagen-cabecera-reservas{
+        background-position: 10%;
+    }
+
+    .img-reservas{
+        display: contents;
+    }
+
+    .columna{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .columna div{
+        width: 45%;
+    }    
+
+    .subtitulo-web{
+        font-size: 2rem;
+    }
+
+    /* ======================================================================= */
+    /* TRANSPORTE WEB */
+    /* ======================================================================= */
+
+
+    .seccion-iconos,
+    .intro-transporte{
+        margin: 70px auto;
+    }
+
+    .intro-transporte{
+        line-height: 30px;
+    }
+
+    .caracteristicas{
+        justify-content: space-around;
+    }
+
+    .subtitulo-transporte{
+        margin-bottom: 40px;
+    }
+
+    .orden-transporte{
+        order: 2;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

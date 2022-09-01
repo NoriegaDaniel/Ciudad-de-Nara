@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Reservas</title>
+
+    <link rel="stylesheet" href="../fuentes/stylesheet.css">
+    <link rel="stylesheet" href="../css/estilos.css">
+
+    <script src="https://kit.fontawesome.com/2cb25f2c39.js" crossorigin="anonymous"></script> 
+</head>
+<body>
+   <header class="imagen-cabecera-reservas">
+
+        <!-- TÍTULO DEL HEADER -->
+        <h1 class="titulo-principal">Hacé tu reserva acá</h1>
+        
+        <!-- BARRA DE NAVEGACIÓN -->
+        <nav class="menu">
+            <!-- LOGO -->
+            <a class="logo" href="../index.html">
+                <img src="../imagenes/logo.png" alt="Logo del sitio web">
+            </a> 
+            <!-- MENU HAMBURGUESA -->
+            <input type="checkbox" id="check">
+            <label for="check" class="bar-btn">
+                <i class="fas fa-bars"></i>
+            </label> 
+            <!-- MENÚ -->
+            <ul class="nav-menu">
+                <li><a href="../index.html">La ciudad</a></li>
+                <li><a href="../secciones/quehacer.html">Que hacer</a></li>
+                <li><a href="../secciones/transporte.html">Transporte</a></li>
+                <li><a href="../secciones/alojamiento.html">Alojamiento</a></li>
+                <li><a class="activo" href="#">Reservas</a></li>
+            </ul>    
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div class="espacio-grande contenedor">
+                
+                <div class="img-reservas">
+                    <img src="../imagenes/kofukuji.jpg" alt="Templo Kofukuji">
+                </div>
+    
+                <div class="fondo-gris-reservas">
+                    
+                    <h2 class="subtitulo subtitulo-web">Reservá tu vuelo, tu estadía y completá tus datos personales</h2>
+                    
+                    <form action="gracias.html" method="POST" id="formularioReservas" class="contenedor-form">
+                        <div>
+                            <label>
+                                <input type="text" name="checkin" placeholder="Check in - Check out" class="campo" required>    
+                            </label>
+                        </div>
+                        
+                        <div>
+                            <label>
+                                <input type="text" name="habitación" placeholder="Selecciona el tipo de habitación" class="campo">     
+                            </label>
+                        </div>
+                        
+                        <div class="columna">
+                            <div class="select">
+                                <select name="adultos" id="adultos">
+                                    <option selected disabled>Adultos</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                </select>
+                            </div>
+                            <div class="select">
+                                <select name="ninios" id="Niños">
+                                    <option selected disabled>Niños</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                </select>
+                            </div>         
+                        </div>
+                        
+                        <div>
+                            <label>
+                                <textarea cols="30" rows="10" name="notas" placeholder="Notas especiales" class="campo"></textarea>
+                             </label>
+                        </div>
+                        <div class="chequeo">
+                            <input type="checkbox" name="checkbox" id="check1"> 
+                            <label for="check1"> 
+                                Acepto los <a href="#">términos y condiciones</a> 
+                            </label>
+                        </div>
+                         
+                        <input type="submit" value="Enviar reserva">
+    
+                    </form>
+                </div>
+    
+            </div>
+    
+        </section>    
+    </main>
+
+    <!-- PIE DE PÁGINA -->
+    <footer>
+        <div class="contenedor-footer">
+            <div class="titulos-footer">
+                <ul>
+                    <li class="destacado">Acerca de</li>
+                    <li><a href="#">Contacto</a></li>
+                    <li><a href="#">Novedades</a></li>
+                    <li><a href="#">Suscribite</a></li>
+                    <li><a href="#">Quienes somos</a></li>
+                </ul> 
+            </div>
+            <div class="titulos-footer">
+                <ul>
+                    <li class="destacado">Ciudad de Nara</li>
+                    <li><a href="#">Gupia turística</a></li>
+                    <li><a href="#">Excursiones y visitas guiadas</a></li>
+                    <li><a href="#">Hoteles</a></li>
+                    <li><a href="#">Alquiler de autos</a></li>
+                    <li><a href="#">Traslados</a></li>
+                    <li><a href="#">Vuelos</a></li>
+                </ul>    
+            </div>
+        
+            <div class="titulos-footer apps-margen-footer">
+                <h2 class="destacado">Descarga nuestra app</h2>
+                <div class="contenedor-apps">
+                    <div>
+                        <a href="#"><img src="../imagenes/apple_app.png" alt="Botón de descarga de la app ios" class="aplicaciones"></a>
+                    </div>
+                    <div>
+                        <a href="#"><img src="../imagenes/google_app.png" alt="Botón de descarga de la app android" class="aplicaciones"></a>  
+                    </div>    
+                </div>      
+            </div>
+        </div>
+        
+    </footer>
+</body>
+</html>
